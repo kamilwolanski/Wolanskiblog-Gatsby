@@ -33,14 +33,14 @@ const AboutMe = () => {
                 pod pseudoniem Samuraj Programowania), gdzie prezentował jak
                 zrobić podstawową stronę w oparciu o html i css. Początkowe,
                 nieśmiałe zainteresowanie szybko zamieniło się w prawdziwą pasję
-                na którą przeznaczam codziennie przynajmniej kilka solidnych
+                , na którą przeznaczam codziennie przynajmniej kilka solidnych
                 godzin.
               </p>
               <p>
                 Oprócz nowej pasji odkryłem, że lubię się uczyć nowych rzeczy.
                 Branża IT zapewnia wydawołoby się nieskończoną ilość materiału
                 do nauki, więc jestem szczęśliwy :D. Używanym przeze mnie
-                frameworkiem frontendowym jest React JS którego lubię i cenię. w
+                frameworkiem frontendowym jest React JS, którego lubię i cenię. w
                 przyszłości chciałbym poznać zyskującego na popularności Vue JS,
                 a może i nawet Angulara, jednak nie od razu. Zdążyłem się
                 przekonać jak dużo czasu potrzeba na naukę programowania jak i
@@ -66,10 +66,10 @@ const AboutMe = () => {
               <h2>Czemu blog?</h2>
               <p>
                 Blog ma służyć jako przestrzeń do prezentowania moich projektów.
-                Jest to miejsce dla potencjalnych pracodawców którzy będą mogli
+                Jest to miejsce dla potencjalnych pracodawców, którzy będą mogli
                 obejrzeć moje pracę, dowiedzieć się nieco o mnie, a także
                 skontaktować się ze mną. Początkowo miałem tworzyć zwykły
-                landing page który miałby być wizytówką, jednak pomyślałem, że
+                landing page, który miałby być wizytówką, jednak pomyślałem, że
                 tworząc bloga więcej się nauczę, a w przyszłości może zostanę
                 blogerem.
               </p>
