@@ -12,7 +12,7 @@ export const query = graphql`
     datoCmsPost(slug: { eq: $slug }) {
       title
       image {
-        gatsbyImageData(width: 900, placeholder: BLURRED, height: 400)
+        gatsbyImageData(width: 1100, placeholder: BLURRED, height: 400)
       }
       slug
       seoMetaTags {
