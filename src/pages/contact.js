@@ -43,10 +43,13 @@ const Contact = () => {
       )
     }
   }
-  console.log(isSubmitted)
   return (
     <>
-      <Head title="Kontakt" />
+      <Head
+        title="Kontakt"
+        description="Masz jakieś zapytanie, sugestię, a może chcesz dowiedzieć się
+                więcej o moich projektach? Śmiało napisz do mnie!"
+      />
       <ThemeProvider theme={theme}>
         <GlobalStyles />
         <Layout>

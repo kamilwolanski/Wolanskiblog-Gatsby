@@ -5,13 +5,17 @@ import { ThemeProvider } from "styled-components"
 import { theme } from "../styles/theme"
 import { GlobalStyles } from "../styles/globalStyles"
 import Layout from "../components/templates/Layout"
-import Head from '../components/Head'
-
+import Head from "../components/Head"
 
 const AboutMe = () => {
   return (
     <>
-      <Head title="O Mnie"/>
+      <Head
+        title="O Mnie"
+        description="Hej! Nazywam się Kamil Wolański i zamierzam zostać programistą.
+                Moim głównym zainteresowaniem są technologie webowe na ścieżce
+                frontendu, a używaną biblioteką React JS."
+      />
       <ThemeProvider theme={theme}>
         <GlobalStyles />
         <Layout>
