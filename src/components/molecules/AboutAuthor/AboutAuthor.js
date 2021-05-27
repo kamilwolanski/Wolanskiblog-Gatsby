@@ -12,7 +12,7 @@ const AboutAuthor = props => {
     <AboutAuthorWrapper>
       <h3>o autorze</h3>
       <div className="author-portrait">
-        <StaticImage src='../../../images/IMG_20210509_113454nbn.jpg' placeholder="none" width={300} quality="100" alt="Wizerunek autora bloga"/>
+        <StaticImage src='../../../images/20210527_134626.jpg' placeholder="none" width={300} quality="100" alt="Wizerunek autora bloga"/>
       </div>
       <p>
         Hej! Nazywam się Kamil Wolański i zamierzam zostać programistą. Moim
