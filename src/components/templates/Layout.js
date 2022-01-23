@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect } from "react"
 import { Wrapper, Footer } from "./Layout.styles"
 import Navigation from "../organisms/Navigation/Navigation"
 import WindowWidthProvider from "../../providers/WindowWidthProvider"
@@ -9,6 +9,10 @@ import { GlobalStyles } from "../../styles/globalStyles"
 
 // import Search from "../molecules/Search/Search"
 const Layout = ({ children }) => {
+  useEffect(() => {
+    window.dataLayer = window.dataLayer || []
+    window.dataLayer.push({ event: 'optimize.activate' })
+  }, [])
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyles />
