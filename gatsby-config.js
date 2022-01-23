@@ -17,6 +17,7 @@ module.exports = {
     {
       resolve: `gatsby-transformer-remark`,
     },
+    'gatsby-plugin-anti-flicker',
     `gatsby-transformer-sharp`,
     `gatsby-plugin-image`,
     {
