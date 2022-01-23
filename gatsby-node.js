@@ -1,21 +1,6 @@
 const path = require("path")
 const polishDate = require("./polishDate")
 
-exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {
-  if (stage === "build-html") {
-    actions.setWebpackConfig({
-      module: {
-        rules: [
-          {
-            test: /offending-module/,
-            use: loaders.null(),
-          },
-        ],
-      },
-    })
-  }
-}
-
 module.exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions
   const blogTemplate = path.resolve("./src/templates/blog.js")

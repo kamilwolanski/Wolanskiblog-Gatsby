@@ -4,6 +4,14 @@ module.exports = {
     author: "Kamil Wolański",
   },
   plugins: [
+    {
+      resolve: "gatsby-plugin-google-tagmanager",
+      options: {
+        id: "GTM-NRRL9N3",
+        includeInDevelopment: true,
+        defaultDataLayer: { platform: "gatsby"}
+      },
+    },
     `gatsby-plugin-sharp`,
     `gatsby-plugin-react-helmet`,
     {
@@ -29,7 +37,7 @@ module.exports = {
       options: {
         // You can find your read-only API token under the Settings > API tokens
         // section of your administrative area. Make sure to grant both CDA and CMA permissions.
-        apiToken: process.env.DATOCMS_API_TOKEN,
+        apiToken: '189f78e078cae1db31f355940fef1b',
 
         // The project environment to read from. Defaults to the primary environment:
         environment: `main`,
