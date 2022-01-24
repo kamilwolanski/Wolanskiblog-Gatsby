@@ -10,12 +10,12 @@ const optimizeAntiFlickerScript = (containerId) => ({
 h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
 (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
 })(window,document.documentElement,'async-hide','dataLayer',4000,
-{'OPT-W5XTX9R':true});`,
+{'GTM-NRRL9N3':true});`,
 });
 const customHeadComponents = [
   <script dangerouslySetInnerHTML={createDataLayer()} />,
   <style dangerouslySetInnerHTML={optimizeAntiFlickerStyle()} />,
-  <script dangerouslySetInnerHTML={optimizeAntiFlickerScript('OPT-W5XTX9R')} />,
+  <script dangerouslySetInnerHTML={optimizeAntiFlickerScript('GTM-NRRL9N3')} />,
 ];
 export const onPreRenderHTML = ({
   getHeadComponents,
