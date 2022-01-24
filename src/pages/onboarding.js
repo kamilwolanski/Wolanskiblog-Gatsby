@@ -71,6 +71,38 @@ const Step2 = () => {
   )
 }
 
+const Step3 = () => {
+  return (
+    <div id="3">
+      <h4>
+        Ile dni w tygodniu
+        <br />
+        ćwiczysz?
+      </h4>
+      <Row className="align-items-center">
+        <Col xs="6" md={{ size: 6, offset: 1 }} lg={{ size: 5, offset: 2 }}>
+          <Radio name="activity" value="none">
+            Ćwiczę rzadziej niż <br />1 dzień w tygodniu
+          </Radio>
+
+          <Radio name="activity" value="low">
+            Ćwiczę 1-3 dni <br />w tygodniu
+          </Radio>
+
+          <Radio name="activity" value="medium">
+            Ćwiczę 4-5 dni <br />w tygodniu
+          </Radio>
+
+          <Radio name="activity" value="high">
+            Ćwiczę 6-7 dni <br />w tygodniu
+          </Radio>
+        </Col>
+        <Col xs="6" md={{ size: 4 }} lg={{ size: 3 }}></Col>
+      </Row>
+    </div>
+  )
+}
+
 const Onboarding = () => {
   const [currentStep, setCurrentStep] = useState(0)
 
@@ -84,6 +116,8 @@ const Onboarding = () => {
         return <Step1 />
       case 1:
         return <Step2 />
+      case 2:
+        return <Step3 />
     }
   }
   return (
