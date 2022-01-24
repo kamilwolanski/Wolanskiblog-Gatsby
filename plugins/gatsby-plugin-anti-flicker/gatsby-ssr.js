@@ -15,7 +15,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
 const customHeadComponents = [
   <script dangerouslySetInnerHTML={createDataLayer()} />,
   <style dangerouslySetInnerHTML={optimizeAntiFlickerStyle()} />,
-  <script dangerouslySetInnerHTML={optimizeAntiFlickerScript('GTM-NRRL9N3')} />,
+  <script dangerouslySetInnerHTML={optimizeAntiFlickerScript('OPT-W5XTX9R')} />,
 ];
 export const onPreRenderHTML = ({
   getHeadComponents,
