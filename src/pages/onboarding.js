@@ -110,6 +110,10 @@ const Onboarding = () => {
     setCurrentStep(currentStep + 1)
   }
 
+  const handlePrev = () => {
+      setCurrentStep(currentStep - 1)
+  }
+
   const renderStep = step => {
     switch (step) {
       case 0:
@@ -134,6 +138,7 @@ const Onboarding = () => {
           <Layout>
             <Main>
               <h1>SIEMA</h1>
+              <button onClick={handlePrev}>prev</button>
               <Formik
                 initialValues={{
                   sex: "",
